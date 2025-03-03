@@ -1,4 +1,4 @@
-sysreport: sysreport.c
+sysreport: sysreport.c lookup.c
 	$(CC) -Wall $^ -o $@
 
 install: sysreport
